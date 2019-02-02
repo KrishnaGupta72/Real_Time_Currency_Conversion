@@ -1,9 +1,7 @@
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import time
-
 driver = webdriver.Chrome("E:/PyCharm Projects/chromedriver.exe")
-#driver = webdriver.Chrome("C:/Users/Ravindra.Mandloi/PycharmProjects/GoogleSearch/chromedriver.exe")
 
 #Hitting www.oanda.com
 driver.get('https://www.oanda.com/currency/converter/#')
